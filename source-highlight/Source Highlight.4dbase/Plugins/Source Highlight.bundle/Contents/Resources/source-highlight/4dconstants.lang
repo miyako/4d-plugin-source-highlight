@@ -1,0 +1,15 @@
+fourdtime = '(\?|†)[[:digit:]]{2}:[[:digit:]]{2}:[[:digit:]]{2}(\?|†)'
+
+fourddate = '\![[:digit:]]{2,4}(/|\.)[[:digit:]]{2}(/|\.)[[:digit:]]{2,4}\!'
+
+fourdnumber = '[-]?((0x[[:xdigit:]]+)|(([[:digit:]]*(\.|,))?
+[[:digit:]]+([eE][+-]?[[:digit:]]+)?))'
+
+environment fourdstring delim "\"" "\"" begin
+  fourdescapesequence = '\\.'
+end
+
+fourdsystemvariable = "OK|DOCUMENT",
+  "FLDDELIMIT|RECDELIMIT|MOUSEDOWN|MOUSEX|MOUSEY|KEYCODE|MODIFIERS|MOUSEPROC",
+  "ERROR|ERROR LINE|ERROR METHOD" 
+  nonsensitive

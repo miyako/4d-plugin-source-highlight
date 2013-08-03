@@ -1,0 +1,12 @@
+fourdsqlsymbol = "?",",",
+  ">=","<=","<>",
+  "!","&","\|","^","#","%",">","<",
+  ";",":","-","+","*","/","=","(", ")"
+    
+environment fourdsqlstring delim "'" "'" begin
+  fourdsqlescapesequence = "''"
+end
+
+environment fourdsqlname delim "[" "]" begin
+  fourdsqlescapesequence = "]]"
+end
