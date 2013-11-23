@@ -49,21 +49,15 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 397202005;
-			PBXWorkspaceStateSaveDate = 397202005;
+			PBXPerProjectTemplateStateSaveDate = 406703955;
+			PBXWorkspaceStateSaveDate = 406703955;
 		};
 		perUserProjectItems = {
+			D14FE35F183DD36E00BC8075 /* PBXTextBookmark */ = D14FE35F183DD36E00BC8075 /* PBXTextBookmark */;
+			D14FE360183DD36E00BC8075 /* PBXTextBookmark */ = D14FE360183DD36E00BC8075 /* PBXTextBookmark */;
+			D14FE362183DD36E00BC8075 /* PBXTextBookmark */ = D14FE362183DD36E00BC8075 /* PBXTextBookmark */;
+			D14FE364183DD36E00BC8075 /* PlistBookmark */ = D14FE364183DD36E00BC8075 /* PlistBookmark */;
 			D1F69D9017ACC47300C9B0AF /* PBXTextBookmark */ = D1F69D9017ACC47300C9B0AF /* PBXTextBookmark */;
-			D1F69DA717ACD26200C9B0AF /* PBXTextBookmark */ = D1F69DA717ACD26200C9B0AF /* PBXTextBookmark */;
-			D1F69DA817ACD26200C9B0AF /* XCBuildMessageTextBookmark */ = D1F69DA817ACD26200C9B0AF /* XCBuildMessageTextBookmark */;
-			D1F69DB217ACD28F00C9B0AF /* PBXBookmark */ = D1F69DB217ACD28F00C9B0AF /* PBXBookmark */;
-			D1F69DDB17ACD3EC00C9B0AF /* PBXTextBookmark */ = D1F69DDB17ACD3EC00C9B0AF /* PBXTextBookmark */;
-			D1F69DDC17ACD3EC00C9B0AF /* PBXTextBookmark */ = D1F69DDC17ACD3EC00C9B0AF /* PBXTextBookmark */;
-			D1F69DDE17ACD3EC00C9B0AF /* PBXTextBookmark */ = D1F69DDE17ACD3EC00C9B0AF /* PBXTextBookmark */;
-			D1F69DDF17ACD3EC00C9B0AF /* PBXTextBookmark */ = D1F69DDF17ACD3EC00C9B0AF /* PBXTextBookmark */;
-			D1F69DE417ACD3EC00C9B0AF /* PBXTextBookmark */ = D1F69DE417ACD3EC00C9B0AF /* PBXTextBookmark */;
-			D1F69DE517ACD3EC00C9B0AF /* PBXTextBookmark */ = D1F69DE517ACD3EC00C9B0AF /* PBXTextBookmark */;
-			D1F69DE617ACD3EC00C9B0AF /* PBXTextBookmark */ = D1F69DE617ACD3EC00C9B0AF /* PBXTextBookmark */;
 			D1F69DE817ACD3EC00C9B0AF /* PlistBookmark */ = D1F69DE817ACD3EC00C9B0AF /* PlistBookmark */;
 		};
 		sourceControlManager = D1F69D8717ACC37400C9B0AF /* Source Control */;
@@ -80,9 +74,10 @@
 	};
 	18B684FE06944F8800CC6A1E /* 4DPlugin.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {887, 5603}}";
-			sepNavSelRange = "{1157, 0}";
-			sepNavVisRange = "{995, 336}";
+			sepNavIntBoundsRect = "{{0, 0}, {887, 7837}}";
+			sepNavSelRange = "{8417, 0}";
+			sepNavVisRange = "{1391, 566}";
+			sepNavWindowFrame = "{{86, 62}, {845, 783}}";
 		};
 	};
 	8D01CCC60486CAD60068D4B7 /* Source Highlight */ = {
@@ -95,11 +90,73 @@
 	};
 	D120937E13534DCC00A72CAA /* 4DPlugin.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {786, 655}}";
+			sepNavIntBoundsRect = "{{0, 0}, {933, 655}}";
 			sepNavSelRange = "{350, 0}";
 			sepNavVisRange = "{0, 675}";
 			sepNavWindowFrame = "{{85, 44}, {845, 783}}";
 		};
+	};
+	D14FE35F183DD36E00BC8075 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18B684FE06944F8800CC6A1E /* 4DPlugin.cpp */;
+		name = "4DPlugin.cpp: 366";
+		rLen = 0;
+		rLoc = 8417;
+		rType = 0;
+		vrLen = 566;
+		vrLoc = 1391;
+	};
+	D14FE360183DD36E00BC8075 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D14FE361183DD36E00BC8075 /* documentation.xml */;
+		rLen = 0;
+		rLoc = 9223372036854776097;
+		rType = 0;
+	};
+	D14FE361183DD36E00BC8075 /* documentation.xml */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
+		name = documentation.xml;
+		path = "/Users/miyako/github-miyako/4d-plugin-source-highlight/source-highlight/Source Highlight.4dbase/Plugins/Source Highlight.bundle/Contents/Resources/documentation.xml";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 1235}}";
+			sepNavSelRange = "{109, 1}";
+			sepNavVisRange = "{0, 1098}";
+		};
+	};
+	D14FE362183DD36E00BC8075 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D14FE363183DD36E00BC8075 /* documentation.xml */;
+		name = "documentation.xml: 4";
+		rLen = 1;
+		rLoc = 109;
+		rType = 0;
+		vrLen = 1098;
+		vrLoc = 0;
+	};
+	D14FE363183DD36E00BC8075 /* documentation.xml */ = {
+		isa = PBXFileReference;
+		name = documentation.xml;
+		path = "/Users/miyako/github-miyako/4d-plugin-source-highlight/source-highlight/Source Highlight.4dbase/Plugins/Source Highlight.bundle/Contents/Resources/documentation.xml";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 1235}}";
+			sepNavSelRange = "{109, 1}";
+			sepNavVisRange = "{0, 1098}";
+		};
+	};
+	D14FE364183DD36E00BC8075 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D01CCD10486CAD60068D4B7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/miyako/github-miyako/4d-plugin-source-highlight/source-highlight/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	D1F69D8717ACC37400C9B0AF /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -124,136 +181,6 @@
 		rType = 0;
 		vrLen = 196;
 		vrLoc = 0;
-	};
-	D1F69D9417ACC47300C9B0AF /* 4dconstants.lang */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text;
-		name = 4dconstants.lang;
-		path = "/Users/miyako/Desktop/source-highlight/Source Highlight.4dbase/Plugins/Source Highlight.bundle/Contents/Resources/source-highlight/4dconstants.lang";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {673, 334}}";
-			sepNavSelRange = "{148, 0}";
-			sepNavVisRange = "{0, 499}";
-		};
-	};
-	D1F69DA717ACD26200C9B0AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D1F69D9417ACC47300C9B0AF /* 4dconstants.lang */;
-		name = "4dconstants.lang: 3";
-		rLen = 0;
-		rLoc = 148;
-		rType = 0;
-		vrLen = 499;
-		vrLoc = 0;
-	};
-	D1F69DA817ACD26200C9B0AF /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'Param1' was not declared in this scope";
-		fRef = 18B684FE06944F8800CC6A1E /* 4DPlugin.cpp */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 361;
-		rType = 1;
-	};
-	D1F69DB217ACD28F00C9B0AF /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8D01CCD10486CAD60068D4B7 /* Info.plist */;
-	};
-	D1F69DBE17ACD38600C9B0AF /* 4DPlugin.cpp */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.cpp.cpp;
-		name = 4DPlugin.cpp;
-		path = /Users/miyako/Desktop/srchilite/4DPlugin.cpp;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {887, 5187}}";
-			sepNavSelRange = "{8203, 173}";
-			sepNavVisRange = "{7738, 971}";
-		};
-	};
-	D1F69DDB17ACD3EC00C9B0AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 18B684FE06944F8800CC6A1E /* 4DPlugin.cpp */;
-		name = "4DPlugin.cpp: 61";
-		rLen = 0;
-		rLoc = 1331;
-		rType = 0;
-		vrLen = 1157;
-		vrLoc = 0;
-	};
-	D1F69DDC17ACD3EC00C9B0AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D120937E13534DCC00A72CAA /* 4DPlugin.h */;
-		rLen = 0;
-		rLoc = 9223372036854775851;
-		rType = 0;
-	};
-	D1F69DDE17ACD3EC00C9B0AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D1F69DBE17ACD38600C9B0AF /* 4DPlugin.cpp */;
-		name = "4DPlugin.cpp: 355";
-		rLen = 173;
-		rLoc = 8203;
-		rType = 0;
-		vrLen = 799;
-		vrLoc = 6667;
-	};
-	D1F69DDF17ACD3EC00C9B0AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D1F69DE017ACD3EC00C9B0AF /* 4DPlugin.h */;
-		rLen = 0;
-		rLoc = 9223372036854775807;
-		rType = 0;
-	};
-	D1F69DE017ACD3EC00C9B0AF /* 4DPlugin.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = 4DPlugin.h;
-		path = /Users/miyako/Desktop/srchilite/4DPlugin.h;
-		sourceTree = "<absolute>";
-	};
-	D1F69DE417ACD3EC00C9B0AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 18B684FE06944F8800CC6A1E /* 4DPlugin.cpp */;
-		name = "4DPlugin.cpp: 366";
-		rLen = 0;
-		rLoc = 8417;
-		rType = 0;
-		vrLen = 660;
-		vrLoc = 1391;
-	};
-	D1F69DE517ACD3EC00C9B0AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D120937E13534DCC00A72CAA /* 4DPlugin.h */;
-		name = "4DPlugin.h: 13";
-		rLen = 0;
-		rLoc = 350;
-		rType = 0;
-		vrLen = 675;
-		vrLoc = 0;
-	};
-	D1F69DE617ACD3EC00C9B0AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D1F69DE717ACD3EC00C9B0AF /* 4DPlugin.h */;
-		name = "4DPlugin.h: 11";
-		rLen = 42;
-		rLoc = 302;
-		rType = 0;
-		vrLen = 664;
-		vrLoc = 0;
-	};
-	D1F69DE717ACD3EC00C9B0AF /* 4DPlugin.h */ = {
-		isa = PBXFileReference;
-		name = 4DPlugin.h;
-		path = /Users/miyako/Desktop/srchilite/4DPlugin.h;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {769, 563}}";
-			sepNavSelRange = "{302, 42}";
-			sepNavVisRange = "{0, 664}";
-			sepNavWindowFrame = "{{539, 187}, {828, 691}}";
-		};
 	};
 	D1F69DE817ACD3EC00C9B0AF /* PlistBookmark */ = {
 		isa = PlistBookmark;

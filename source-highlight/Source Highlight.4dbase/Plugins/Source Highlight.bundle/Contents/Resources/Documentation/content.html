@@ -13,41 +13,80 @@
 </p>
 <ex4D:plugin-description xmlns:ex4D="http://www.4d.com/plugin">
 <!-- write documentation for Source Highlight here -->
+<p>Convert source code from plain text to HTML. Supports  major programming languages inculding 4D v14 (English and French).</p>
 </ex4D:plugin-description>
 <a name="command:1"></a>
 <h2>source-highlight</h2>
 <a name="command:1,1"></a>
 <h3>CODE HIGHLIGHT</h3>
 <p>
-<code>CODE HIGHLIGHT (TEXT; TEXT; TEXT; TEXT)</code>
+<code>CODE HIGHLIGHT (inCode; outCode; inLang; outLang)</code>
 </p>
+<p>
+<code>inCode (TEXT)</code>
+</p>
+<ex4D:argument argument-id="1" label="inCode" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (TEXT) here-->
+<p>The source code in plain text. Line delimiter should be LF.</p>
+</ex4D:argument>
+<p>
+<code>outCode (TEXT)</code>
+</p>
+<ex4D:argument argument-id="2" label="outCode" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $2 (TEXT) here-->
+<p>The code converted to HTML.</p>
+</ex4D:argument>
+<p>
+<code>inLang (TEXT)</code>
+</p>
+<ex4D:argument argument-id="3" label="inLang" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $3 (TEXT) here-->
+<p>Input language specifier. Default is "4d".</p>
+<p>See content of Resources/source-highlight for list of supported languages.</p>
+<p>You can also add/edit these files to extent the library.</p>
+</ex4D:argument>
+<p>
+<code>outLang (TEXT)</code>
+</p>
+<ex4D:argument argument-id="4" label="outLang" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $4 (TEXT) here-->
+<p>Output language specifier. Default is "html".</p>
+</ex4D:argument>
 <p>
 <span class="title">Discussion</span>
 </p>
 <ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
 <!-- write documentation for CODE HIGHLIGHT here -->
+<p>Convert source code from plain text to HTML.</p>
 </ex4D:command-description>
 <a name="command:2"></a>
 <h2>preferences</h2>
 <a name="command:2,2"></a>
 <h3>CODE GET LANGUAGE LIST</h3>
 <p>
-<code>CODE GET LANGUAGE LIST (ARRAY)</code>
+<code>CODE GET LANGUAGE LIST (languages)</code>
 </p>
+<p>
+<code>languages (ARRAY)</code>
+</p>
+<ex4D:argument argument-id="1" label="languages" type="Y" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (ARRAY) here-->
+</ex4D:argument>
 <p>
 <span class="title">Discussion</span>
 </p>
 <ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
 <!-- write documentation for CODE GET LANGUAGE LIST here -->
+<p>Returns the list of supported languages.</p>
 </ex4D:command-description>
 <a name="command:2,4"></a>
 <h3>CODE Get language folder</h3>
 <p>
-<code>TEXT:=CODE Get language folder</code>
+<code>path:=CODE Get language folder</code>
 </p>
 <p>
-<code>returnValue</code> (TEXT)<br>
-<ex4D:return-value label="" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<code>path</code> (TEXT)<br>
+<ex4D:return-value label="path" type="T" xmlns:ex4D="http://www.4d.com/plugin">
 <!-- write documentation for return value (TEXT) here-->
 </ex4D:return-value>
 </p>
@@ -56,16 +95,25 @@
 </p>
 <ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
 <!-- write documentation for CODE Get language folder here -->
+<p>Returns the languges folder. Default is Resources/source-highlight inside the plugin.</p>
 </ex4D:command-description>
 <a name="command:2,3"></a>
 <h3>CODE Set language folder</h3>
 <p>
-<code>LONGINT:=CODE Set language folder (TEXT)</code>
+<code>success:=CODE Set language folder (path)</code>
 </p>
 <p>
-<code>returnValue</code> (LONGINT)<br>
-<ex4D:return-value label="" type="L" xmlns:ex4D="http://www.4d.com/plugin">
+<code>path (TEXT)</code>
+</p>
+<ex4D:argument argument-id="1" label="path" type="T" xmlns:ex4D="http://www.4d.com/plugin">
+<!-- write documentation for $1 (TEXT) here-->
+</ex4D:argument>
+<p>
+<code>success</code> (LONGINT)<br>
+<ex4D:return-value label="success" type="L" xmlns:ex4D="http://www.4d.com/plugin">
 <!-- write documentation for return value (LONGINT) here-->
+<p>1 on success. If the folder does not contain any language files, revert to default and returns 0.</p>
+<p>On Windows, the API is ANSI not Unicode i.e. avoid characters not supported in the current locale.</p>
 </ex4D:return-value>
 </p>
 <p>
@@ -73,8 +121,9 @@
 </p>
 <ex4D:command-description xmlns:ex4D="http://www.4d.com/plugin">
 <!-- write documentation for CODE Set language folder here -->
+<p>Change the languges folder. Default is Resources/source-highlight inside the plugin.</p>
 </ex4D:command-description>
 <p class="footer">
-<span class="title">Documentation Update: </span>2013-08-03T04:47:2509:00</p>
+<span class="title">Documentation Update: </span>2013-11-21T05:36:13z</p>
 </body>
 </html>
